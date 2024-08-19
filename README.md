@@ -26,83 +26,97 @@ Picture this:
 -  Edit and preview your CV in your browser without installing anything by creating a codespace. Click the <> **Code** button, then click the **Codespaces** tab, and then click **Create codespace on main**. The environment will be ready for RenderCV usage. Update `.vscode/launch.json` to point to your YAML file and press `F5` to run RenderCV in the browser.
 
 <!-- Remove above in src/markdown/Header.j2.md not in README.md -->
-# John Doe's CV
+# Lucas Howard's CV
 
-- Phone: +90 541 999 99 99
-- Email: [youremail@yourdomain.com](mailto:youremail@yourdomain.com)
-- Location: Your Location
-- Website: [yourwebsite.com](https://yourwebsite.com/)
-- LinkedIn: [yourusername](https://linkedin.com/in/yourusername)
-- GitHub: [yourusername](https://github.com/yourusername)
+- Phone: +1 336 524 4509
+- Email: [lucas.t.howard@outlook.com](mailto:lucas.t.howard@outlook.com)
+- Location: NC, USA
+- Website: [lucashoward.co](https://lucashoward.co/)
+- LinkedIn: [lucas-howard0](https://linkedin.com/in/lucas-howard0)
+- GitHub: [lhwrd](https://github.com/lhwrd)
 
 
-# Welcome to RenderCV!
-
-[RenderCV](https://github.com/sinaatalay/rendercv) is a LaTeX-based CV/resume framework. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with **full Markdown syntax support** and **complete control over the LaTeX code**.
-
-The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-
-# Quick Guide
-
-- Each section title is arbitrary and each section contains a list of entries.
-- There are 7 unique entry types: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.
-- Select a section title, pick an entry type, and start writing your section!
-- [Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.
 # Education
 
-## University of Pennsylvania, BS in Computer Science
+## Western Governors University, MS in Cybersecurity and Information Assurance
 
-- Sept 2000 – May 2005
-- GPA: 3.9/4.0 ([Transcript](https://example.com))
-- **Coursework:** Computer Architecture, Comparison of Learning Algorithms, Computational Theory
+- Sept 2023 – July 2024
+- Excellence Award for Secure Network Design
+
+## Western Governors University, BS in Cybersecurity and Information Assurance
+
+- Sept 2022 – Feb 2023
+
+## Guilford Technical Community College, AS in Cybersecurity and Information Assurance
+
+- Jan 2019 – Dec 2020
 
 # Experience
 
-## Apple, Software Engineer
+## Nike, Inc., Senior Cyber Defense Incident Data Analyst (FTE)
 
-- June 2005 – Aug 2007
-- Cupertino, CA
-- Reduced time to render user buddy lists by 75% by implementing a prediction algorithm
-- Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-- Redesigned chat file format and implemented backward compatibility for search
+- Jan 2023 – present
+- Remote
+- Conducted in-depth analysis of data affected by security breaches, delivering key reports to stakeholders for regulatory compliance and customer communication.
+- Developed automated reporting tools using Docker and Python, cutting incident report preparation time in half and enhancing stakeholder understanding.
+- Spearheaded the in-house transition of unstructured data analysis, saving the company \$ 1M per incident and reducing third-party dependency.
+- Streamlined log analysis with a risk-based approach, reducing manual data review requirements by 90% and enhancing incident response efficiency.
+- Championed the integration of Databricks notebooks into credential stuffing workflows, replacing AWS EMR to leverage advanced analytics features.
 
-## Microsoft, Software Engineer Intern
+## Nike, Inc., Cyber Defense Data Analyst (ETW)
 
-- June 2003 – Aug 2003
-- Redmond, WA
-- Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-- Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-- Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-- Created a test case generation tool that creates random XML docs from XML Schema
-- Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
+- Oct 2022 – Jan 2023
+- Remote
+- Halved data collection times for Credential Stuffing incidents using optimized Pyspark jobs on AWS EMR, increasing response agility.
+- Engineered Grafana dashboards sourcing from PostgreSQL, enabling real-time cybersecurity metrics analysis for team members and leadership.
+- Collaborated interdepartmentally to refine Vulnerability Management metrics, elevating the organization's cybersecurity metric framework.
 
-# Publications
+## L&E Research, Director of IT/AV and Security
 
-## 3D Finite Element Analysis of No-Insulation Coils ([10.1109/TASC.2023.3340648](https://doi.org/10.1109/TASC.2023.3340648))
-- Jan 2004
-- Frodo Baggins, ***John Doe***, Samwise Gamgee
+- July 2019 – Oct 2021
+- Raleigh, NC
+- Led IT strategy and operations across 11 sites for a national firm, bolstering security posture and operational efficiency for a 300-person workforce.
+- Orchestrated deployment of Sophos endpoint protection and Qualys vulnerability management for 200+ devices, significantly enhancing security infrastructure.
+- Implemented automated anti-phishing and security awareness programs, cutting phishing susceptibility by 50% among employees.
+- Drove the advancement of information security to achieve SOC II compliance, fortifying managerial policies and incident response protocols.
+- Designed and deployed a robust cloud video recording platform using AWS Media Services, ensuring high security for sensitive market research data.
 
-# Projects
+## North Carolina National Guard, B Battery, 5-113th Field Artillery, 25B Information Technology Specialist
 
-## Multi-User Drawing Tool
+- Aug 2018 – July 2019
+- Supported Operation Inherent Resolve, managing secure communication networks and swiftly resolving technical issues under high-pressure conditions.
+- Automated access request workflows with a custom Python script, streamlining processes for over 120 military personnel.
+- Enlisted NC National Guard Jun 2014 - Jun 2020. Highest rank achieved: E4 SPC.
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-- Tools Used: C++, MFC
+## XPO Logistics, Network Administrator
 
-## Synchronized Desktop Calendar
+- Mar 2018 – Aug 2018
+- High Point, NC
+- Configured critical network infrastructure, including Cisco routers and switches, enhancing organizational communication and security.
+- Innovated a web-based configuration tool, reducing network equipment deployment time and boltering operational efficiency.
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-- Tools Used: C#, .NET, SQL, XML
+# Certifications
 
-## Custom Operating System
-
-- 2002
-- Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-- Tools Used: C
-
+- Certified Information Systems Security Professional (CISSP)
+- Certified Cloud Security Professional (CCSP)
+- Cisco Certified Network Associate (CCNA)
+- Cisco Certified CyberOps Associate
+- CompTIA A+, Cloud+, Network+, Security+, Project+, Linux+, Server+, Pentest+, CySA+
+- AWS Certified Solutions Architect - Associate
+- Microsoft Certified: Azure Fundamentals
+- ITIL Foundation
 # Technologies
 
-- Languages: C++, C, Java, Objective-C, C#, SQL, JavaScript
-- Technologies: .NET, Microsoft SQL Server, XCode, Interface Builder
+- Programming: Python, Pandas, Jupyter Notebooks, Pyspark, SQL
+- Other tools: Splunk, Git, Docker, Databricks, Snowflake, Grafana
+# Skills
+
+- Incident Response and Management
+- Application Security
+- Windows and Mac OSX Knowledge
+- Tactical and Strategic Solution Identification
+- Strong Verbal and Written Communication Skills
+- Collaboration Across Teams and Departments
+- Detail-Oriented Approach
+- Organizational Skills
+- Proactive in Improving Security Controls
