@@ -73,7 +73,7 @@
 - Certified Cloud Security Professional (CCSP)
 - Cisco Certified Network Associate (CCNA)
 - Cisco Certified CyberOps Associate
-- CompTIA A+, Cloud+, Network+, Security+, Project+, Linux+, Server+, Pentest+, CySA+
+- CompTIA A+, Cloud+, Network+, Security+, Project+, Linux+, Server+, Pentest+, CySA+, CASP+
 - AWS Certified Solutions Architect - Associate
 - Microsoft Certified: Azure Fundamentals
 - ITIL Foundation
