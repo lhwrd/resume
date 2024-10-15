@@ -51,6 +51,9 @@ cv:
           - Championed the integration of Databricks notebooks
             into credential stuffing workflows, replacing AWS EMR
             to leverage advanced analytics features.
+          - Architected and deployed an AWS SAM app triggered by
+            a Slack slash command to automatically generate reports 
+            critical to CSIMT processes, complete with CI/CD.
       - company: Nike, Inc.
         position: Cyber Defense Data Analyst (ETW)
         location: Remote
@@ -110,6 +113,7 @@ cv:
     certifications:
       - bullet: Certified Information Systems Security Professional (CISSP)
       - bullet: Certified Cloud Security Professional (CCSP)
+      - bullet: ISACA Certified Information Security Manager (CSIM, pending)
       - bullet: Cisco Certified Network Associate (CCNA)
       - bullet: Cisco Certified CyberOps Associate
       - bullet: CompTIA A+, Cloud+, Network+, Security+, Project+, Linux+, Server+, Pentest+, CySA+, CASP+
