@@ -2,7 +2,7 @@
 
 - Phone: +1 336 524 4509
 - Email: [lucas.t.howard@outlook.com](mailto:lucas.t.howard@outlook.com)
-- Location: NC, USA
+- Location: Port Orange, FL, USA
 - Website: [lucashoward.co](https://lucashoward.co/)
 - LinkedIn: [lucas-howard0](https://linkedin.com/in/lucas-howard0)
 - GitHub: [lhwrd](https://github.com/lhwrd)
@@ -30,11 +30,11 @@
 - Jan 2023 – present
 - Remote
 - Conducted in-depth analysis of data affected by security breaches, delivering key reports to stakeholders for regulatory compliance and customer communication.
-- Developed automated reporting tools using Docker and Python, cutting incident report preparation time in half and enhancing stakeholder understanding.
+- Developed automated reporting tools using Docker and JupyterLab, cutting incident report preparation time in half and enhancing stakeholder understanding.
 - Spearheaded the in-house transition of unstructured data analysis, saving the company \$ 1M per incident and reducing third-party dependency.
 - Streamlined log analysis with a risk-based approach, reducing manual data review requirements by 90% and enhancing incident response efficiency.
 - Championed the integration of Databricks notebooks into credential stuffing workflows, replacing AWS EMR to leverage advanced analytics features.
-- Architected and deployed an AWS SAM app triggered by a Slack slash command to automatically generate reports critical to CSIMT processes, complete with CI/CD.
+- Architected a shared Python data analysis package for the team, increasing data analysis consistency and reducing onboarding time for new team members.
 
 ## Nike, Inc., Cyber Defense Data Analyst (ETW)
 
@@ -66,16 +66,17 @@
 - Mar 2018 – Aug 2018
 - High Point, NC
 - Configured critical network infrastructure, including Cisco routers and switches, enhancing organizational communication and security.
-- Innovated a web-based configuration tool, reducing network equipment deployment time and boltering operational efficiency.
+- Innovated a web-based configuration tool, reducing network equipment deployment time and bolstering operational efficiency.
 
 # Certifications
 
 - Certified Information Systems Security Professional (CISSP)
 - Certified Cloud Security Professional (CCSP)
-- ISACA Certified Information Security Manager (CSIM)
+- ISACA Certified Information Security Manager (CISM)
+- IAPP Certified Information Privacy Technologist (CIPT, pending)
 - Cisco Certified Network Associate (CCNA)
 - Cisco Certified CyberOps Associate
-- CompTIA A+, Cloud+, Network+, Security+, Project+, Linux+, Server+, Pentest+, CySA+, CASP+
+- CompTIA A+, Cloud+, Network+, Security+, Project+, Linux+, Server+, Pentest+, CySA+, SecurityX
 - AWS Certified Solutions Architect - Associate
 - Microsoft Certified: Azure Fundamentals
 - ITIL Foundation
