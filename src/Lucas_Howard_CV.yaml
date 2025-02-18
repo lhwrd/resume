@@ -1,6 +1,6 @@
 cv:
   name: Lucas Howard
-  location: NC, USA
+  location: Port Orange, FL, USA
   email: lucas.t.howard@outlook.com
   phone: tel:+1-336-524-4509
   website: https://lucashoward.co
@@ -35,25 +35,25 @@ cv:
         start_date: 2023-01
         end_date: present
         highlights:
-          - Conducted in-depth analysis of data affected by 
-            security breaches, delivering key reports to 
-            stakeholders for regulatory compliance and customer 
+          - Conducted in-depth analysis of data affected by
+            security breaches, delivering key reports to
+            stakeholders for regulatory compliance and customer
             communication.
-          - Developed automated reporting tools using Docker 
-            and Python, cutting incident report preparation time 
+          - Developed automated reporting tools using Docker
+            and JupyterLab, cutting incident report preparation time
             in half and enhancing stakeholder understanding.
-          - Spearheaded the in-house transition of unstructured 
-            data analysis, saving the company \$ 1M per incident 
+          - Spearheaded the in-house transition of unstructured
+            data analysis, saving the company \$ 1M per incident
             and reducing third-party dependency.
-          - Streamlined log analysis with a risk-based approach, 
+          - Streamlined log analysis with a risk-based approach,
             reducing manual data review requirements by 90% and
             enhancing incident response efficiency.
           - Championed the integration of Databricks notebooks
             into credential stuffing workflows, replacing AWS EMR
             to leverage advanced analytics features.
-          - Architected and deployed an AWS SAM app triggered by
-            a Slack slash command to automatically generate reports 
-            critical to CSIMT processes, complete with CI/CD.
+          - Architected a shared Python data analysis package
+            for the team, increasing data analysis consistency
+            and reducing onboarding time for new team members.
       - company: Nike, Inc.
         position: Cyber Defense Data Analyst (ETW)
         location: Remote
@@ -61,7 +61,7 @@ cv:
         end_date: "2023-01-02"
         highlights:
           - Halved data collection times for Credential Stuffing
-            incidents using optimized Pyspark jobs on AWS EMR, 
+            incidents using optimized Pyspark jobs on AWS EMR,
             increasing response agility.
           - Engineered Grafana dashboards sourcing from PostgreSQL,
             enabling real-time cybersecurity metrics analysis for
@@ -78,10 +78,10 @@ cv:
           - Led IT strategy and operations across 11 sites for a national
             firm, bolstering security posture and operational efficiency
             for a 300-person workforce.
-          - Orchestrated deployment of Sophos endpoint protection and 
-            Qualys vulnerability management for 200+ devices, significantly 
+          - Orchestrated deployment of Sophos endpoint protection and
+            Qualys vulnerability management for 200+ devices, significantly
             enhancing security infrastructure.
-          - Implemented automated anti-phishing and security awareness 
+          - Implemented automated anti-phishing and security awareness
             programs, cutting phishing susceptibility by 50% among employees.
           - Drove the advancement of information security to achieve SOC II
             compliance, fortifying managerial policies and incident response
@@ -113,10 +113,11 @@ cv:
     certifications:
       - bullet: Certified Information Systems Security Professional (CISSP)
       - bullet: Certified Cloud Security Professional (CCSP)
-      - bullet: ISACA Certified Information Security Manager (CSIM)
+      - bullet: ISACA Certified Information Security Manager (CISM)
+      - bullet: IAPP Certified Information Privacy Technologist (CIPT, pending)
       - bullet: Cisco Certified Network Associate (CCNA)
       - bullet: Cisco Certified CyberOps Associate
-      - bullet: CompTIA A+, Cloud+, Network+, Security+, Project+, Linux+, Server+, Pentest+, CySA+, CASP+
+      - bullet: CompTIA A+, Cloud+, Network+, Security+, Project+, Linux+, Server+, Pentest+, CySA+, SecurityX
       - bullet: AWS Certified Solutions Architect - Associate
       - bullet: "Microsoft Certified: Azure Fundamentals"
       - bullet: ITIL Foundation
@@ -140,7 +141,7 @@ design:
   font: Source Sans 3
   font_size: 10pt
   page_size: letterpaper
-  color: '#004f90'
+  color: "#004f90"
   disable_external_link_icons: false
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
@@ -148,7 +149,7 @@ design:
   last_updated_date_style: Last updated in TODAY
   header_font_size: 30 pt
   text_alignment: justified-with-no-hyphenation
-  seperator_between_connections: ''
+  seperator_between_connections: ""
   use_icons_for_connections: true
   margins:
     page:
