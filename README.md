@@ -73,7 +73,7 @@
 - Certified Information Systems Security Professional (CISSP)
 - Certified Cloud Security Professional (CCSP)
 - ISACA Certified Information Security Manager (CISM)
-- IAPP Certified Information Privacy Technologist (CIPT, pending)
+- IAPP Certified Information Privacy Technologist (CIPT)
 - Cisco Certified Network Associate (CCNA)
 - Cisco Certified CyberOps Associate
 - CompTIA A+, Cloud+, Network+, Security+, Project+, Linux+, Server+, Pentest+, CySA+, SecurityX
