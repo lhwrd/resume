@@ -57,7 +57,7 @@ cv:
       - company: Nike, Inc.
         position: Cyber Defense Data Analyst (ETW)
         location: Remote
-        start_date: "2022-10-16"
+        start_date: "2021-10-16"
         end_date: "2023-01-02"
         highlights:
           - Halved data collection times for Credential Stuffing
@@ -111,8 +111,8 @@ cv:
           - Innovated a web-based configuration tool, reducing network equipment
             deployment time and bolstering operational efficiency.
     certifications:
-      - bullet: Certified Information Systems Security Professional (CISSP)
-      - bullet: Certified Cloud Security Professional (CCSP)
+      - bullet: ISC2 Certified Information Systems Security Professional (CISSP)
+      - bullet: ISC2 Certified Cloud Security Professional (CCSP)
       - bullet: ISACA Certified Information Security Manager (CISM)
       - bullet: IAPP Certified Information Privacy Technologist (CIPT)
       - bullet: Cisco Certified Network Associate (CCNA)
