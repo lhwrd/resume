@@ -38,7 +38,7 @@
 
 ## Nike, Inc., Cyber Defense Data Analyst (ETW)
 
-- Oct 2022 – Jan 2023
+- Oct 2021 – Jan 2023
 - Remote
 - Halved data collection times for Credential Stuffing incidents using optimized Pyspark jobs on AWS EMR, increasing response agility.
 - Engineered Grafana dashboards sourcing from PostgreSQL, enabling real-time cybersecurity metrics analysis for team members and leadership.
@@ -70,8 +70,8 @@
 
 # Certifications
 
-- Certified Information Systems Security Professional (CISSP)
-- Certified Cloud Security Professional (CCSP)
+- ISC2 Certified Information Systems Security Professional (CISSP)
+- ISC2 Certified Cloud Security Professional (CCSP)
 - ISACA Certified Information Security Manager (CISM)
 - IAPP Certified Information Privacy Technologist (CIPT)
 - Cisco Certified Network Associate (CCNA)
