@@ -8,20 +8,16 @@
 - GitHub: [lhwrd](https://github.com/lhwrd)
 
 
+# Summary
+
+Cybersecurity-focused data engineer with a strong background in cloud analytics, threat intelligence, and secure data pipelines. Proven success in automating incident response and transforming unstructured data into actionable insights using Python, Spark, and Databricks. Adept at architecting scalable systems that bridge the gap between cyber defense and data engineering.
+
+
 # Education
 
 ## Western Governors University, MS in Cybersecurity and Information Assurance
 
-- Sept 2023 – July 2024
 - Excellence Award for Secure Network Design
-
-## Western Governors University, BS in Cybersecurity and Information Assurance
-
-- Sept 2022 – Feb 2023
-
-## Guilford Technical Community College, AS in Cybersecurity and Information Assurance
-
-- Jan 2019 – Dec 2020
 
 # Experience
 
@@ -29,44 +25,41 @@
 
 - Jan 2023 – present
 - Remote
-- Conducted in-depth analysis of data affected by security breaches, delivering key reports to stakeholders for regulatory compliance and customer communication.
-- Developed automated reporting tools using Docker and JupyterLab, cutting incident report preparation time in half and enhancing stakeholder understanding.
-- Spearheaded the in-house transition of unstructured data analysis, saving the company \$ 1M per incident and reducing third-party dependency.
-- Streamlined log analysis with a risk-based approach, reducing manual data review requirements by 90% and enhancing incident response efficiency.
-- Championed the integration of Databricks notebooks into credential stuffing workflows, replacing AWS EMR to leverage advanced analytics features.
-- Architected a shared Python data analysis package for the team, increasing data analysis consistency and reducing onboarding time for new team members.
+- Designed automated data pipelines to process breach-related logs and security telemetry, reducing incident triage time by 50%.
+- Built internal Python packages and Jupyter notebooks to standardize security data workflows and reduce onboarding time.
+- Replaced AWS EMR with Databricks notebooks for credential stuffing analysis, enhancing analytics performance and maintainability.
+- Spearheaded migration of unstructured data workflows in-house using Docker, saving the company $1M per incident.
+- Applied risk-based prioritization to log analysis pipelines, improving detection speed and reducing manual review by 90%.
 
 ## Nike, Inc., Cyber Defense Data Analyst (ETW)
 
 - Oct 2021 – Jan 2023
 - Remote
-- Halved data collection times for Credential Stuffing incidents using optimized Pyspark jobs on AWS EMR, increasing response agility.
-- Engineered Grafana dashboards sourcing from PostgreSQL, enabling real-time cybersecurity metrics analysis for team members and leadership.
-- Collaborated interdepartmentally to refine Vulnerability Management metrics, elevating the organization's cybersecurity metric framework.
+- Reduced credential stuffing response time by 50% via optimized PySpark jobs on AWS EMR.
+- Built Grafana dashboards from PostgreSQL to deliver real-time analytics to cyber defense stakeholders.
+- Contributed to security metrics framework development across departments, aligning data strategy with incident response KPIs.
 
 ## L&E Research, Director of IT/AV and Security
 
 - July 2019 – Oct 2021
 - Raleigh, NC
-- Led IT strategy and operations across 11 sites for a national firm, bolstering security posture and operational efficiency for a 300-person workforce.
-- Orchestrated deployment of Sophos endpoint protection and Qualys vulnerability management for 200+ devices, significantly enhancing security infrastructure.
-- Implemented automated anti-phishing and security awareness programs, cutting phishing susceptibility by 50% among employees.
-- Drove the advancement of information security to achieve SOC II compliance, fortifying managerial policies and incident response protocols.
-- Designed and deployed a robust cloud video recording platform using AWS Media Services, ensuring high security for sensitive market research data.
+- Led enterprise IT operations and security across 11 locations, supporting over 300 users.
+- Implemented security automation, reducing phishing click-through rates by 50%.
+- Built secure cloud-based video streaming platform on AWS Media Services, ensuring data confidentiality and compliance.
 
 ## North Carolina National Guard, B Battery, 5-113th Field Artillery, 25B Information Technology Specialist
 
 - Aug 2018 – July 2019
-- Supported Operation Inherent Resolve, managing secure communication networks and swiftly resolving technical issues under high-pressure conditions.
-- Automated access request workflows with a custom Python script, streamlining processes for over 120 military personnel.
+- Automated access workflows using Python, improving provisioning speed for 120+ personnel.
+- Deployed and maintained secure communications during Operation Inherent Resolve.
 - Enlisted NC National Guard Jun 2014 - Jun 2020. Highest rank achieved: E4 SPC.
 
 ## XPO Logistics, Network Administrator
 
 - Mar 2018 – Aug 2018
 - High Point, NC
-- Configured critical network infrastructure, including Cisco routers and switches, enhancing organizational communication and security.
-- Innovated a web-based configuration tool, reducing network equipment deployment time and bolstering operational efficiency.
+- Built internal web-based tools for network configuration, reducing deployment time.
+- Managed Cisco routers/switches and enhanced network segmentation and monitoring.
 
 # Certifications
 
@@ -78,20 +71,18 @@
 - Cisco Certified CyberOps Associate
 - CompTIA A+, Cloud+, Network+, Security+, Project+, Linux+, Server+, Pentest+, CySA+, SecurityX
 - AWS Certified Solutions Architect - Associate
-- Microsoft Certified: Azure Fundamentals
-- ITIL Foundation
 # Technologies
 
-- Programming: Python, Pandas, Jupyter Notebooks, Pyspark, SQL
-- Other tools: Splunk, Git, Docker, Databricks, Snowflake, Grafana
+- Data Engineering: Python, SQL, Pandas, Pyspark, Jupyter Notebooks, Databricks, Snowflake
+- Cybersecurity & Monitoring: Splunk, Grafana, Qualys, Sophos, SecurityX
+- DevOps & Cloud: Docker, Git, AWS, Azure
 # Skills
 
-- Incident Response and Management
-- Application Security
-- Windows and Mac OSX Knowledge
-- Tactical and Strategic Solution Identification
-- Strong Verbal and Written Communication Skills
-- Collaboration Across Teams and Departments
-- Detail-Oriented Approach
-- Organizational Skills
-- Proactive in Improving Security Controls
+- Secure Data Pipeline Development
+- Threat Detection and Automation
+- Incident Response and Forensics
+- Cloud Analytics (AWS, Azure)
+- Cross-Team Collaboration and Mentoring
+- Strong Written and Verbal Communication
+- Infrastructure as Code and Automation
+- Metrics-Driven Decision Making
