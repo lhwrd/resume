@@ -10,49 +10,66 @@
 
 # Summary
 
-Cybersecurity-focused data engineer with a strong background in cloud analytics, threat intelligence, and secure data pipelines. Proven success in automating incident response and transforming unstructured data into actionable insights using Python, Spark, and Databricks. Adept at architecting scalable systems that bridge the gap between cyber defense and data engineering.
+Cybersecurity professional with expertise in data engineering, cloud analytics, and threat intelligence.  Skilled in automating incident response workflows and transforming unstructured data into actionable security  insights using Python, Spark, and Databricks. Adept at architecting scalable, secure data pipelines that  strengthen incident response and bridge the gap between cyber defense and advanced analytics.
 
 
 # Education
 
 ## Western Governors University, MS in Cybersecurity and Information Assurance
 
+- Sept 2023 – July 2024
 - Excellence Award for Secure Network Design
+
+## Western Governors University, BS in Cybersecurity and Information Assurance
+
+- Sept 2022 – Feb 2023
+
+## Guilford County Community College, AS in Cybersecurity and Information Assurance
+
+- Jan 2019 – Dec 2020
 
 # Experience
 
-## Nike, Inc., Senior Cyber Defense Incident Data Analyst (FTE)
+## Nike, Inc., Senior Cyber Defense Incident Data Analyst
 
 - Jan 2023 – present
 - Remote
-- Designed automated data pipelines to process breach-related logs and security telemetry, reducing incident triage time by 50%.
-- Built internal Python packages and Jupyter notebooks to standardize security data workflows and reduce onboarding time.
-- Replaced AWS EMR with Databricks notebooks for credential stuffing analysis, enhancing analytics performance and maintainability.
-- Spearheaded migration of unstructured data workflows in-house using Docker, saving the company $1M per incident.
-- Applied risk-based prioritization to log analysis pipelines, improving detection speed and reducing manual review by 90%.
+- Conducted incident impact analyses that directly determined escalation to the CISO, shaping executive-level decision-making.
+- Built a shared Python package with CI/CD pipelines and unit testing, ensuring production reliability and standardization across the incident analysis team.
+- Developed automated reporting tools using Docker, JupyterLab, and Quarto, cutting incident report prep time by 50%.
+- Mentored teammates via weekly technical training on Python, GitHub, and software development standards, boosting team proficiency.
+- Championed integration of Databricks notebooks into credential stuffing workflows, replacing AWS EMR for advanced analytics.
+- Streamlined log analysis with a risk-based approach, reducing manual data review requirements by 90%.
+- Partnered with CSIRT to onboard Palo Alto XSOAR, automating incident action plan workflows and saving 20+ hours per incident.
+- Migrated Cyber Defense metrics from PostgreSQL to Databricks using Delta Lake tables, modernizing the data pipeline and improving scalability.
+- Transitioned reporting dashboards from Grafana to Tableau, enhancing executive visibility and enabling advanced analytics for leadership.
+- Collaborated with the Network Security team and Cyber Defense Center to develop an automated pipeline that identified risky shadow IT applications (e.g., unauthorized VPNs and remote access tools), strengthening enterprise security posture.
 
-## Nike, Inc., Cyber Defense Data Analyst (ETW)
+## Nike, Inc., Cyber Defense Data Analyst
 
 - Oct 2021 – Jan 2023
 - Remote
-- Reduced credential stuffing response time by 50% via optimized PySpark jobs on AWS EMR.
-- Built Grafana dashboards from PostgreSQL to deliver real-time analytics to cyber defense stakeholders.
-- Contributed to security metrics framework development across departments, aligning data strategy with incident response KPIs.
+- Designed and delivered Grafana dashboards used by the CISO and VPs, enabling executive visibility into cybersecurity metrics.
+- Optimized PySpark jobs on AWS EMR, halving data collection times for credential stuffing incidents and improving SOC agility.
+- Collaborated across departments to refine Vulnerability Management metrics, strengthening Nike's cybersecurity framework.
 
 ## L&E Research, Director of IT/AV and Security
 
 - July 2019 – Oct 2021
 - Raleigh, NC
-- Led enterprise IT operations and security across 11 locations, supporting over 300 users.
-- Implemented security automation, reducing phishing click-through rates by 50%.
-- Built secure cloud-based video streaming platform on AWS Media Services, ensuring data confidentiality and compliance.
+- Implemented Qualys vulnerability management, Microsoft MDM, and Azure AD, modernizing endpoint and identity security across 200+ devices.
+- Deployed KnowBe4 phishing simulations and training, reducing company-wide phishing susceptibility by 50%.
+- Developed automated onboarding/offboarding workflows with Jira and Azure AD, streamlining account lifecycle management for 300 employees.
+- Introduced and administered Jira and Confluence, improving IT workflow tracking, documentation, and cross-departmental collaboration.
+- Designed and deployed a secure cloud video recording platform on AWS Media Services, safeguarding sensitive market research data.
 
 ## North Carolina National Guard, B Battery, 5-113th Field Artillery, 25B Information Technology Specialist
 
-- Aug 2018 – July 2019
-- Automated access workflows using Python, improving provisioning speed for 120+ personnel.
-- Deployed and maintained secure communications during Operation Inherent Resolve.
-- Enlisted NC National Guard Jun 2014 - Jun 2020. Highest rank achieved: E4 SPC.
+- June 2014 – June 2022
+- Various
+- Supported Operation Inherent Resolve (Aug 2018 - Jul 2019), managing secure communication networks and resolving technical issues under high-pressure conditions.
+- Automated access request workflows with a custom Python script, streamlining processes for 120+ military personnel.
+- Honored with highest rank achieved: E4 Specialist (SPC).
 
 ## XPO Logistics, Network Administrator
 
@@ -63,26 +80,17 @@ Cybersecurity-focused data engineer with a strong background in cloud analytics,
 
 # Certifications
 
-- ISC2 Certified Information Systems Security Professional (CISSP)
-- ISC2 Certified Cloud Security Professional (CCSP)
-- ISACA Certified Information Security Manager (CISM)
-- IAPP Certified Information Privacy Technologist (CIPT)
-- Cisco Certified Network Associate (CCNA)
-- Cisco Certified CyberOps Associate
-- CompTIA A+, Cloud+, Network+, Security+, Project+, Linux+, Server+, Pentest+, CySA+, SecurityX
-- AWS Certified Solutions Architect - Associate
+- Advanced Security & Cloud: CISSP, CCSP, CISM, CIPT
+- Networking & Operations: CCNA, Cisco CyberOps Associate, AWS Solutions Architect – Associate, Microsoft Azure Fundamentals, ITIL Foundation
+- CompTIA Suite: A+, Network+, Security+, Cloud+, Project+, Linux+, Server+, Pentest+, CySA+, SecurityX
 # Technologies
 
-- Data Engineering: Python, SQL, Pandas, Pyspark, Jupyter Notebooks, Databricks, Snowflake
-- Cybersecurity & Monitoring: Splunk, Grafana, Qualys, Sophos, SecurityX
-- DevOps & Cloud: Docker, Git, AWS, Azure
+- Data Engineering: Python, SQL, Pandas, Pyspark, Jupyter Notebooks, Databricks, Snowflake, Grafana, Tableau
+- Security Tools: Splunk, Qualys, Sophos Endpoint Protection, KnowBe4, Azure AD, Microsoft MDM, AWS Security Services (IAM, KMS, CloudTrail)
+- Cloud & Infra: Docker, Databricks, Snowflake, Grafana, AWS, Azure
+- Collaboration & Workflow: Git/GitHub, Jira, Confluence, Agile/Scrum
 # Skills
 
-- Secure Data Pipeline Development
-- Threat Detection and Automation
-- Incident Response and Forensics
-- Cloud Analytics (AWS, Azure)
-- Cross-Team Collaboration and Mentoring
-- Strong Written and Verbal Communication
-- Infrastructure as Code and Automation
-- Metrics-Driven Decision Making
+- Security & Technical: Incident Response & Management, Threat Analysis, Security Automation, Application Security, Vulnerability Management, Cloud Security (AWS & Azure)
+- Tools & Systems: Windows & macOS Administration, SIEM & Log Analysis, Secure Network Design
+- Professional Strengths: Strong Verbal & Written Communication, Cross-Team Collaboration, Mentorship & Knowledge Sharing, Detail-Oriented Execution, Proactive Security Control Improvement
