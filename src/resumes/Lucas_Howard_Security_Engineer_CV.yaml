@@ -1,0 +1,112 @@
+cv:
+  name: Lucas Howard
+  location: Port Orange, FL, USA
+  email: lucas.t.howard@outlook.com
+  phone: tel:+1-336-524-4509
+  website: https://lucashoward.co
+  social_networks:
+    - network: LinkedIn
+      username: lucas-howard0
+    - network: GitHub
+      username: lhwrd
+
+  sections:
+    summary:
+      - >
+        Senior security engineer and data analyst with 5+ years building production-quality security tooling,
+        automating incident response workflows, and integrating security into developer pipelines at scale.
+        Experienced in application security, vulnerability management, and cloud-native architectures, with a
+        demonstrated habit of using AI coding assistants and LLMs as a core force multiplier — not an occasional
+        shortcut. Holds CISSP, CCSP, CISM, and SecurityX; MS in Cybersecurity & Information Assurance.
+
+    education:
+      - institution: Western Governors University
+        area: Cybersecurity and Information Assurance
+        degree: MS
+
+    certifications:
+      - bullet: "Advanced Security & Cloud: CISSP, CCSP, CISM, CIPT"
+      - bullet: "Networking & Operations: CCNA, Cisco CyberOps Associate, AWS Solutions Architect – Associate, Microsoft Azure Fundamentals, ITIL Foundation"
+      - bullet: "CompTIA Suite: A+, Network+, Security+, Cloud+, Project+, Linux+, Server+, Pentest+, CySA+, SecurityX"
+
+    experience:
+      - company: Nike, Inc.
+        position: Senior Cyber Defense Incident Data Analyst
+        location: Remote
+        start_date: 2023-01
+        end_date: present
+        highlights:
+          - Built and maintained a shared Python package with CI/CD pipelines, unit testing, and integration tests — including validation that Quarto template notebooks render correctly — ensuring production reliability and enabling other analysts to contribute confidently to shared tooling.
+          - Leveraged GitHub Copilot and LLMs extensively to accelerate development, including building tooling in unfamiliar languages and automating analyses that would otherwise require sustained manual review; presented on practical AI-assisted development at SwooshCon to broaden adoption across engineering.
+          - Automated a credential stuffing analysis playbook end-to-end, transforming a week-long manual process into a repeatable pipeline that completes in under a day — an 85%+ reduction in turnaround time — by engineering multi-step ingestion, enrichment, and reporting workflows.
+          - "Engineered security tooling that integrates directly into analyst workflows: a forensic web crawler for authenticated site capture, a high-performance Box download utility with concurrency and resumable state, and a Python CLI for aggregating order data from GraphQL endpoints — each replacing a manual process with a scalable, repeatable capability."
+          - Partnered with CSIRT to onboard Palo Alto XSOAR (Demisto), automating incident action plan generation and saving 20+ hours per incident; also built a migration tool to import 5+ years of historical incident data, preserving continuity during the platform transition.
+          - Migrated Cyber Defense metrics from PostgreSQL to Databricks using Delta Lake, modernizing the pipeline and improving scalability; built a Databricks Asset Bundle for Tech Writing metrics using the Confluence API, and rebuilt the NCDC metrics dashboard in Tableau for sustainable stakeholder reporting.
+          - Conducted impact analyses during major incidents that directly informed materials presented by the CISO to the Board, requiring rigorous, defensible analysis under sustained pressure across nights, weekends, and extended work weeks.
+          - Delivered 10 live technical training sessions and a 20-hour learning plan covering Python, Git/GitHub, Docker, and production-quality development standards, resulting in teammates contributing new features to the shared package; mentored a teammate twice weekly through a master's program and Nike work.
+
+      - company: Nike, Inc.
+        position: Cyber Defense Data Analyst
+        location: Remote
+        start_date: "2021-10-16"
+        end_date: "2023-01-02"
+        highlights:
+          - Designed and delivered Grafana dashboards used by the CISO and VPs, enabling executive visibility into cybersecurity metrics across the security organization.
+          - Optimized PySpark jobs on AWS EMR for credential stuffing incident analysis, halving data collection times and improving SOC agility during active investigations.
+          - Led data analysis for the Microsoft 365 Copilot onboarding initiative, assessing SharePoint data posture and collaborating with SharePoint and IR teams to remediate insecure file sharing permissions before deployment.
+          - Collaborated across departments to refine Vulnerability Management metrics, strengthening Nike's cybersecurity framework and executive reporting.
+
+      - company: L&E Research
+        position: Director of IT/AV and Security
+        location: Raleigh, NC
+        start_date: "2019-07-01"
+        end_date: "2021-10-01"
+        highlights:
+          - Implemented Qualys vulnerability management, Microsoft MDM, and Azure AD, modernizing endpoint and identity security across 200+ devices and establishing a repeatable patching and remediation workflow.
+          - Deployed KnowBe4 phishing simulations and training, reducing company-wide phishing susceptibility by 50%.
+          - Developed automated onboarding/offboarding workflows with Jira and Azure AD, streamlining account lifecycle management for 300 employees.
+          - Designed and deployed a secure cloud video recording platform on AWS Media Services, safeguarding sensitive market research data.
+
+      - company: North Carolina National Guard, B Battery, 5-113th Field Artillery
+        position: 25B Information Technology Specialist
+        location: Various
+        start_date: "2014-06-01"
+        end_date: "2022-06-01"
+        highlights:
+          - Supported Operation Inherent Resolve (Aug 2018 – Jul 2019), managing secure communication networks and resolving technical issues under high-pressure operational conditions.
+          - Automated access request workflows with a custom Python script, streamlining processes for 120+ military personnel.
+          - "Honored with highest rank achieved: E4 Specialist (SPC)."
+
+      - company: XPO Logistics
+        position: Network Administrator
+        location: High Point, NC
+        start_date: "2018-03-01"
+        end_date: "2018-08-01"
+        highlights:
+          - Built internal web-based tools for network configuration, reducing deployment time.
+          - Managed Cisco routers/switches and enhanced network segmentation and monitoring.
+
+    technologies:
+      - label: Application Security & Vulnerability Management
+        details: SDLC security integration, dependency risk analysis, CVE triage, container security, Qualys, Splunk, Palo Alto XSOAR
+      - label: Security Automation & Tooling
+        details: Python, PySpark, Bash, CI/CD pipelines, GitHub Actions, Docker, JupyterLab, Quarto
+      - label: AI-Assisted Development
+        details: GitHub Copilot, LLM-powered tooling, Azure Translator Service, Anthropic API, AI workflow integration
+      - label: Cloud & Infrastructure
+        details: AWS (EMR, IAM, KMS, CloudTrail, Media Services), Azure AD, Databricks, Snowflake, Delta Lake
+      - label: Data Engineering & Analytics
+        details: SQL, Pandas, PySpark, Databricks, Tableau, Grafana, Confluence API, Airtable API
+      - label: Collaboration & Workflow
+        details: Git/GitHub, Jira, Confluence, Agile/Scrum
+
+    skills:
+      - bullet: "Security Engineering: Application security, vulnerability management, SDLC integration, container security, security automation, incident response, SIEM & log analysis"
+      - bullet: "Cloud & Infrastructure: AWS, Azure, Databricks; comfortable adapting to new stacks (GCP/GKE)"
+      - bullet: "Software Development: Production-quality Python, CI/CD, unit and integration testing, shared library design, API integration"
+      - bullet: "Professional Strengths: Bias toward automation over runbooks, comfort with ambiguity and independent ownership, cross-team influence without slowing developers down, strong written and verbal communication for technical and executive audiences"
+
+design:
+  theme: classic
+  entries:
+    allow_page_break_in_entries: false

@@ -5,7 +5,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run RenderCV",
+      "name": "Run RenderCV (Main)",
       "type": "debugpy",
       "request": "launch",
       "module": "rendercv",
@@ -13,9 +13,23 @@
         "render",
         "src/Lucas_Howard_CV.yaml",
         "--pdf-path",
-        "Lucas_Howard_CV.pdf",
+        "rendercv_output/Lucas_Howard_CV.pdf",
         "--markdown-path",
         "README.md"
+      ]
+    },
+    {
+      "name": "Run RenderCV (Active Variant File)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "rendercv",
+      "args": [
+        "render",
+        "${file}",
+        "--pdf-path",
+        "rendercv_output/${fileBasenameNoExtension}.pdf",
+        "--markdown-path",
+        "docs/resumes/${fileBasenameNoExtension}.md"
       ]
     }
   ]
