@@ -23,14 +23,38 @@ jobs:
           pip install -r requirements.txt
       - name: RenderCV
         run: |
-          cd src
-          cv_file=$(find .  -maxdepth 1 -type f -name "*_CV.yaml" | head -n 1)
-          if [ -z "$cv_file" ]; then
-            echo "No RenderCV file found!"
+          mkdir -p rendercv_output docs/resumes
+
+          main_cv="src/Lucas_Howard_CV.yaml"
+          if [ ! -f "$main_cv" ]; then
+            echo "Main resume file not found: $main_cv"
             exit 1
           fi
-          cd ..
-          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md
+
+          # Only the main resume updates README.md.
+          rendercv render "$main_cv" \
+            --pdf-path "rendercv_output/Lucas_Howard_CV.pdf" \
+            --markdown-path "README.md"
+
+          variant_count=0
+          for cv_file in src/resumes/*_CV.yaml; do
+            if [ ! -f "$cv_file" ]; then
+              continue
+            fi
+
+            cv_name=$(basename "$cv_file" .yaml)
+            rendercv render "$cv_file" \
+              --pdf-path "rendercv_output/${cv_name}.pdf" \
+              --markdown-path "docs/resumes/${cv_name}.md"
+
+            variant_count=$((variant_count + 1))
+          done
+
+          if [ "$variant_count" -eq 0 ]; then
+            echo "No variant resumes found in src/resumes."
+          else
+            echo "Rendered $variant_count variant resume(s)."
+          fi
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
@@ -42,8 +66,8 @@ jobs:
           base: HEAD
           filters: |
             cv:
-              - '*_CV.tex'
               - 'README.md'
+              - 'docs/resumes/**/*.md'
       - name: Push the changes
         if: steps.changes.outputs.cv == 'true'
         run: |
