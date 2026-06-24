@@ -108,5 +108,3 @@ cv:
 
 design:
   theme: classic
-  entries:
-    allow_page_break_in_entries: false
