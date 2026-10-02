@@ -13,10 +13,9 @@ cv:
   sections:
     summary:
       - >
-        Cybersecurity professional with expertise in data engineering, cloud analytics, and threat intelligence. 
-        Skilled in automating incident response workflows and transforming unstructured data into actionable security 
-        insights using Python, Spark, and Databricks. Adept at architecting scalable, secure data pipelines that 
-        strengthen incident response and bridge the gap between cyber defense and advanced analytics.
+        Data-driven cybersecurity professional with 5+ years of experience in digital forensics, data analysis and engineering, and data privacy.
+        Skilled in automating incident data analysis workflows and transforming ambiguous data into actionable security
+        insights using Python, Spark, and Databricks. Adept at identifying opportunities and architecting scalable systems that bridge the gap between privacy, cyber defense, and data engineering.
 
     education:
       - institution: Western Governors University
@@ -24,7 +23,7 @@ cv:
         degree: MS
 
     certifications:
-      - bullet: "Advanced Security & Cloud: CISSP, CCSP, CISM, CIPT"
+      - bullet: "Advanced Security & Cloud: CISSP, CCSP, CISM, CIPT, AAISM (Pending)"
       - bullet: "Networking & Operations: CCNA, Cisco CyberOps Associate, AWS Solutions Architect – Associate, Microsoft Azure Fundamentals, ITIL Foundation"
       - bullet: "CompTIA Suite: A+, Network+, Security+, Cloud+, Project+, Linux+, Server+, Pentest+, CySA+, SecurityX"
 
@@ -35,15 +34,14 @@ cv:
         start_date: 2023-01
         end_date: present
         highlights:
-          - Conducted incident impact analyses that directly determined escalation to the CISO, shaping executive-level decision-making.
-          - Built a shared Python package with CI/CD pipelines and unit testing, ensuring production reliability and standardization across the incident analysis team.
-          - Developed automated reporting tools using Docker, JupyterLab, and Quarto, cutting incident report prep time by 50%.
-          - Mentored teammates via weekly technical training on Python, GitHub, and software development standards, boosting team proficiency.
-          - Championed integration of Databricks notebooks into credential stuffing workflows, replacing AWS EMR for advanced analytics.
-          - Streamlined log analysis with a risk-based approach, reducing manual data review requirements by 90%.
-          - Partnered with CSIRT to onboard Palo Alto XSOAR, automating incident action plan workflows and saving 20+ hours per incident.
-          - Migrated Cyber Defense metrics from PostgreSQL to Databricks using Delta Lake tables, modernizing the data pipeline and improving scalability.
-          - Collaborated with the Network Security team and Cyber Defense Center to develop an automated pipeline that identified risky shadow IT applications (e.g., unauthorized VPNs and remote access tools), strengthening enterprise security posture.
+          - Investigated data affected by cyber incidents and produced detailed reports on the impact to business or personal information for legal and privacy analysis.
+          - Using Cursor AI, created a PII data-mining and individual-resolution pipeline in Databricks (PySpark) within a month during a critical incident. The pipeline identified individuals and their affected data for regulatory notifications, saving weeks of development and more than $1 million.
+          - Developed an automated, standardized data-impact reporting workflow using Jupyter notebooks and Quarto to quickly produce, quality-check, and deliver high-quality, consistent reports, reducing report-writing time by up to 80%. Also expanded the workflow into a shared Cursor skill.
+          - Architected a shared Python package featuring a CLI, notebook templates, and Pandas pipeline functions for transforming commonly encountered data. Added CI/CD and a full test suite to ensure production reliability and standardization.
+          - Integrated Databricks notebooks into credential-stuffing workflows, replacing AWS EMR for advanced analytics and reducing costs and analysis time by at least 20%.
+          - Curated search terms, regular expressions, and queries to quickly triage personal information in unstructured data in Nuix, reducing manual data review by up to 90%, eliminating the need for costly third-party review, and saving up to $1 million per incident.
+          - Partnered with the incident management team to onboard Palo Alto XSOAR, creating a tailored automated action-plan report and an Active Directory resolver lookup, saving up to 40 hours per week.
+          - Mentored teammates through weekly technical training in AI-assisted development with GitHub Copilot and Cursor, Python, GitHub, and software development standards, improving team proficiency.
 
       - company: Nike, Inc.
         position: Cyber Defense Data Analyst
@@ -51,8 +49,9 @@ cv:
         start_date: "2021-10-16"
         end_date: "2023-01-02"
         highlights:
+          - Investigated data affected by cyber incidents and produced detailed reports on the impact to business or personal information for legal and privacy analysis.
           - Designed and delivered Grafana dashboards used by the CISO and VPs, enabling executive visibility into cybersecurity metrics.
-          - Optimized PySpark jobs on AWS EMR, halving data collection times for credential stuffing incidents and improving SOC agility.
+          - Optimized PySpark jobs on AWS EMR, halving data collection times for credential stuffing incidents.
           - Collaborated across departments to refine Vulnerability Management metrics, strengthening Nike's cybersecurity framework.
 
       - company: L&E Research
@@ -88,18 +87,13 @@ cv:
 
     technologies:
       - label: Data Engineering
-        details: Python, SQL, Pandas, Pyspark, Jupyter Notebooks, Databricks, Snowflake, Grafana, Tableau
+        details: Python, SQL, Pandas, PySpark, Jupyter notebooks, Databricks, Cursor, GitHub Copilot
       - label: Security Tools
-        details: Splunk, Qualys, Sophos Endpoint Protection, KnowBe4, Azure AD, Microsoft MDM, AWS Security Services (IAM, KMS, CloudTrail)
+        details: Splunk, Qualys, Sophos Endpoint Protection, KnowBe4, Azure AD, Microsoft MDM, AWS Security Services (IAM, KMS, CloudTrail), Nuix
       - label: Cloud & Infra
         details: Docker, Databricks, Snowflake, Grafana, AWS, Azure
       - label: Collaboration & Workflow
         details: Git/GitHub, Jira, Confluence, Agile/Scrum
-    skills:
-      - bullet: "Security & Technical: Incident Response & Management, Threat Analysis, Security Automation, Application Security, Vulnerability Management, Cloud Security (AWS & Azure)"
-      - bullet: "Tools & Systems: Windows & macOS Administration, SIEM & Log Analysis, Secure Network Design"
-      - bullet: "Professional Strengths: Strong Verbal & Written Communication, Cross-Team Collaboration, Mentorship & Knowledge Sharing, Detail-Oriented Execution, Proactive Security Control Improvement"
 
 design:
   theme: classic
-
