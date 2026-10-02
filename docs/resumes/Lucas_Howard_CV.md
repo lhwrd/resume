@@ -1,42 +1,32 @@
-# <<cv.name>>'s CV
+# Lucas Howard's CV
 
-((* if cv.phone *))
-- Phone: <<cv.phone|replace("tel:", "")|replace("-"," ")>>
-((* endif *))
-((* if cv.email *))
-- Email: [<<cv.email>>](mailto:<<cv.email>>)
-((* endif *))
-((* if cv.location *))
-- Location: <<cv.location>>
-((* endif *))
-((* if cv.website *))
-- Website: [<<cv.website|replace("https://","")|replace("/","")>>](<<cv.website>>)
-((* endif *))
-((* if cv.social_networks *))
-    ((* for network in cv.social_networks *))
-- <<network.network>>: [<<network.username>>](<<network.url>>)
-    ((* endfor *))
-((* endif *))
+- Phone: +1 336 524 4509
+- Email: [lucas.t.howard@outlook.com](mailto:lucas.t.howard@outlook.com)
+- Location: Port Orange, FL, USA
+- Website: [lucashoward.co](https://lucashoward.co/)
+- LinkedIn: [lucas-howard0](https://linkedin.com/in/lucas-howard0)
+- GitHub: [lhwrd](https://github.com/lhwrd)
 
-# <<section_title>>
+
+# Summary
 Data-driven cybersecurity professional with 5+ years of experience in digital forensics, data analysis and engineering, and data privacy. Skilled in automating incident data analysis workflows and transforming ambiguous data into actionable security insights using Python, Spark, and Databricks. Adept at identifying opportunities and architecting scalable systems that bridge the gap between privacy, cyber defense, and data engineering.
 
 
-# <<section_title>>
+# Education
 ## **Western Governors University**, Cybersecurity and Information Assurance
 
 **MS**
 
 
 
-# <<section_title>>
+# Certifications
 - Advanced Security & Cloud: CISSP, CCSP, CISM, CIPT, AAISM (Pending)
 
 - Networking & Operations: CCNA, Cisco CyberOps Associate, AWS Solutions Architect – Associate, Microsoft Azure Fundamentals, ITIL Foundation
 
 - CompTIA Suite: A+, Network+, Security+, Cloud+, Project+, Linux+, Server+, Pentest+, CySA+, SecurityX
 
-# <<section_title>>
+# Experience
 ## **Nike, Inc.**, Senior Cyber Defense Incident Data Analyst
 
 Remote
@@ -143,7 +133,7 @@ Mar 2018 – Aug 2018
 
 
 
-# <<section_title>>
+# Technologies
 **Data Engineering:** Python, SQL, Pandas, PySpark, Jupyter notebooks, Databricks, Cursor, GitHub Copilot
 
 **Security Tools:** Splunk, Qualys, Sophos Endpoint Protection, KnowBe4, Azure AD, Microsoft MDM, AWS Security Services (IAM, KMS, CloudTrail), Nuix
