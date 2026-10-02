@@ -33,8 +33,8 @@ jobs:
 
           # Only the main resume updates README.md.
           rendercv render "$main_cv" \
-            --pdf-path "rendercv_output/Lucas_Howard_CV.pdf" \
-            --markdown-path "README.md"
+            --pdf-path "../rendercv_output/Lucas_Howard_CV.pdf" \
+            --markdown-path "../README.md"
 
           variant_count=0
           for cv_file in src/resumes/*_CV.yaml; do
@@ -44,8 +44,8 @@ jobs:
 
             cv_name=$(basename "$cv_file" .yaml)
             rendercv render "$cv_file" \
-              --pdf-path "rendercv_output/${cv_name}.pdf" \
-              --markdown-path "docs/resumes/${cv_name}.md"
+              --pdf-path "../../rendercv_output/${cv_name}.pdf" \
+              --markdown-path "../../docs/resumes/${cv_name}.md"
 
             variant_count=$((variant_count + 1))
           done
